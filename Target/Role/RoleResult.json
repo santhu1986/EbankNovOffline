@@ -1,0 +1,330 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify Admin login functionality",
+        "description": "",
+        "id": "admin-login;verify-admin-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6174942700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should on Ranford Home Page",
+            "match": {
+              "location": "LoginSD.user_should_on_Ranford_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3794080600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enters \"Admin\" and \"Admin\" click on Login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 13
+                },
+                {
+                  "val": "Admin",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginSD.user_Enters_Login_Deatils(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48634000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Validates Admin login",
+            "match": {
+              "location": "LoginSD.user_Validates_Admin_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Admin Login",
+    "description": "",
+    "id": "admin-login",
+    "keyword": "Feature",
+    "uri": "D:/SepEvngBatch/Ebanking_Cucumber/src/feature/Alogin.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 18,
+        "name": "Verify Role creation with Multiple sets od Data",
+        "description": "",
+        "id": "role-creation-functionality;verify-role-creation-with-multiple-sets-od-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4958317000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Tester Should on Ranford Home Page",
+            "match": {
+              "location": "RoleSD.tester_Should_on_Ranford_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3701635500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Tester Enters Admin Login Details",
+            "match": {
+              "location": "RoleSD.tester_Enters_Admin_Login_Details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3408384900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Tester Click on Role button",
+            "match": {
+              "location": "RoleSD.tester_Click_on_Role_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10362267100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tester Click on New role and enter \"GenManager\" and \"E\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GenManager",
+                  "offset": 36
+                },
+                {
+                  "val": "E",
+                  "offset": 53
+                }
+              ],
+              "location": "RoleSD.tester_Click_on_New_role_and_enter_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1240098900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Tester Close the Application",
+            "match": {
+              "location": "RoleSD.tester_Close_the_Application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verify Role creation with Multiple sets od Data",
+        "description": "",
+        "id": "role-creation-functionality;verify-role-creation-with-multiple-sets-od-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4828003800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Tester Should on Ranford Home Page",
+            "match": {
+              "location": "RoleSD.tester_Should_on_Ranford_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3718003000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Tester Enters Admin Login Details",
+            "match": {
+              "location": "RoleSD.tester_Enters_Admin_Login_Details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3522355500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Tester Click on Role button",
+            "match": {
+              "location": "RoleSD.tester_Click_on_Role_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10321298700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tester Click on New role and enter \"AsstManager\" and \"E\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AsstManager",
+                  "offset": 36
+                },
+                {
+                  "val": "E",
+                  "offset": 54
+                }
+              ],
+              "location": "RoleSD.tester_Click_on_New_role_and_enter_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1276309700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Tester Close the Application",
+            "match": {
+              "location": "RoleSD.tester_Close_the_Application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verify Role creation with Multiple sets od Data",
+        "description": "",
+        "id": "role-creation-functionality;verify-role-creation-with-multiple-sets-od-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4724872500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Tester Should on Ranford Home Page",
+            "match": {
+              "location": "RoleSD.tester_Should_on_Ranford_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3580999400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Tester Enters Admin Login Details",
+            "match": {
+              "location": "RoleSD.tester_Enters_Admin_Login_Details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3419113300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Tester Click on Role button",
+            "match": {
+              "location": "RoleSD.tester_Click_on_Role_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10310015300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tester Click on New role and enter \"Manager\" and \"E\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manager",
+                  "offset": 36
+                },
+                {
+                  "val": "E",
+                  "offset": 50
+                }
+              ],
+              "location": "RoleSD.tester_Click_on_New_role_and_enter_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1124445000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Tester Close the Application",
+            "match": {
+              "location": "RoleSD.tester_Close_the_Application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Role Creation functionality",
+    "description": "",
+    "id": "role-creation-functionality",
+    "keyword": "Feature",
+    "uri": "D:/SepEvngBatch/Ebanking_Cucumber/src/feature/Role.feature"
+  }
+]
